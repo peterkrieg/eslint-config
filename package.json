@@ -9,10 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
-    "eslint-plugin-import": "^2.11.0"
-  },
   "dependencies": {
+    "eslint-plugin-import": "^2.11.0",
     "eslint-restricted-globals": "^0.1.1"
   }
 }
