@@ -117,7 +117,7 @@ module.exports = {
 
 		// this option sets a specific tab width for your code
 		// https://eslint.org/docs/rules/indent
-		indent: ['error', 2, {
+		indent: ['warn', 'tab', {
 			SwitchCase: 1,
 			VariableDeclarator: 1,
 			outerIIFEBody: 1,
@@ -343,8 +343,7 @@ module.exports = {
 		// disallow space between function identifier and application
 		'no-spaced-func': 'error',
 
-		// disallow tab characters entirely
-		'no-tabs': 'error',
+		'no-tabs': 'off',
 
 		// disallow the use of ternary operators
 		'no-ternary': 'off',
