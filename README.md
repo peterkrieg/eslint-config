@@ -1,6 +1,10 @@
-# eslint-config-peter
+<h1 align="center" >My Personal JavaScript Style Guide</h1>
+<h6 align="center">(Based from Airbnb's)</h6>
 
-My personal eslint rules.  Based heavily off of airbnb setup. To get started:
+[![npm version](https://badge.fury.io/js/eslint-config-peter.svg)](https://badge.fury.io/js/eslint-config-peter)
+
+
+To get started:
 
 * `npm i eslint-config-peter`.
 * Create an `eslintrc.js` file with the following:
