@@ -80,7 +80,7 @@ module.exports = {
 
 		// Validate props indentation in JSX
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-		'react/jsx-indent-props': ['error', 2],
+		'react/jsx-indent-props': ['warn', 'tab'],
 
 		// Validate JSX has key prop when in array or iterator
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
@@ -295,7 +295,7 @@ module.exports = {
 
 		// Enforce JSX indentation
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-		'react/jsx-indent': ['error', 2],
+		'react/jsx-indent': ['warn', 'tab'],
 
 		// Disallow target="_blank" on links
 		// https://github.com/yannickcr/eslint-plugin-react/blob/ac102885765be5ff37847a871f239c6703e1c7cc/docs/rules/jsx-no-target-blank.md
