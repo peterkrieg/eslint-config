@@ -19,3 +19,8 @@ module.exports = {
 Custom rules go in the `rules` object.
 
 This relies on global installation of `eslint` package, otherwise install locally.
+
+
+### React
+
+For react projects, you can follow the same steps, except the package is called `peter-react` instead of `peter`.  This repo actually contains 2 npm projects in the `projects` repo.  To publish one, you make changes in appropriate folder, and then `npm publish`.
